@@ -15,6 +15,7 @@ Add Powershell Modules from Module Gallery (Under "Shared Resources") in Automat
 Import in the order given below:
 1. Az.Accounts
 2. Az.RecoveryServices
+3. Az.Resources
 > Make sure to update modules using https://github.com/Microsoft/AzureAutomation-Account-Modules-Update
 
 ## Step 3
