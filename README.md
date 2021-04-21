@@ -13,9 +13,10 @@ Create an Automation Account with “Run As” account
 Add Powershell Modules from Module Gallery (Under "Shared Resources") in Automation Account.
 
 Import in the order given below:
-1. Az.Accounts
+1. Az.Accounts (used for auth)
 2. Az.RecoveryServices
-3. Az.Resources
+3. Az.Resources (used for tags)
+4. Az.Automation (used for running other runbooks)
 > Make sure to update modules using https://github.com/Microsoft/AzureAutomation-Account-Modules-Update
 
 ## Step 3
